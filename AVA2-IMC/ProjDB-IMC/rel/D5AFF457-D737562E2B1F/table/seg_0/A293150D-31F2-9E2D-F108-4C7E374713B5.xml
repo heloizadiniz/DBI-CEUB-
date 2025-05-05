@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A293150D-31F2-9E2D-F108-4C7E374713B5" name="Pessoav2">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>D852ECB1-C63F-0C14-E620-FCCFEA931491</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pessoa_cpfPessoa" id="8BBC3769-3DBA-63AC-8DFF-A15048A52937">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>3B5E0956-81E3-CFE0-180B-BC617DACA87D</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="FB659B2C-E42B-DC38-0869-7DE4D8486E27">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>AC80E0F6-650E-5108-0BC2-6A6562A23B34</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="378782A7-E5E9-C337-6835-DAEF8D1088B6">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>A798521B-6414-60FF-FE91-7E920AFC7200</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexoPessoa" id="F05F9523-13DD-726C-3A9A-712E92B13660">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-29 00:26:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC6F2D5F-FA1C-54CD-E3DF-49794F544E35" name="Pessoav2_PK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>B243AE82-68B2-E4F1-9B66-8E0E3D59E6F9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BBC3769-3DBA-63AC-8DFF-A15048A52937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="597FE285-1AF1-70F4-3074-D374AAEF05F5" name="Pessoav2_PKv1">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:48:19 UTC</createdTime>
+<generatorID>C0713F19-6BB0-4EDF-F1B9-83306035C16C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="378782A7-E5E9-C337-6835-DAEF8D1088B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

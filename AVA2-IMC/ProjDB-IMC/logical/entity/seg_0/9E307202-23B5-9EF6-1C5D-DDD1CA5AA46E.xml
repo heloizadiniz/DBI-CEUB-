@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E307202-23B5-9EF6-1C5D-DDD1CA5AA46E" name="ImcHistorico">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-08 00:31:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dadaMedidaimc" id="7CBEF35B-40F5-B33E-F079-0D13ADC3C5CB">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-08 00:31:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoMedidaimc" id="4EA5EBEF-CF4E-6A89-D610-BCBDF450EFFE">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-08 00:36:17 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaMedidaimc" id="6C03EAE8-B7C0-5701-35FE-03D8D394EB9F">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-08 00:38:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrimcPessoa" id="9E553940-5109-041B-6416-0411B4389175">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:03:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="07356D11-D082-758E-D44E-F01766C9B0BB">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:06:29 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="031EE9B5-5642-67D1-4778-538296E6BADF">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:08:49 UTC</createdTime>
+<generatorID>5D851A77-A634-59FA-B78C-32D59CF7A39C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A798521B-6414-60FF-FE91-7E920AFC7200</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analisePessoa" id="15A69F20-BFCA-D356-60D4-B192E41CE8D8">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:35:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE66CEC8-2784-90D2-A271-2A34087555E3" name="ImcHistorico_PK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-28 23:06:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="false"/>
+<item key="EA23CCC7-F37D-8B0D-8C6B-3CF2D2365721" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CBEF35B-40F5-B33E-F079-0D13ADC3C5CB</attributeRef>
+<attributeRef>07356D11-D082-758E-D44E-F01766C9B0BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

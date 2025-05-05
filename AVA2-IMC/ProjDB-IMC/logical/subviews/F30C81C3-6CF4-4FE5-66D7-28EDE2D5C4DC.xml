@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="F30C81C3-6CF4-4FE5-66D7-28EDE2D5C4DC">
+<createdBy>heloiza.dfigueredo</createdBy>
+<modifiedBy>heloiza.dfigueredo</modifiedBy>
+<createdTime>2025-04-07 23:39:54 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="5C9D14D9-50A3-5E48-AC4A-E03132016FA8" otype="Hierarchy relation" vid_source="EEB8CD25-3319-7A54-6BF5-845CC03005CB" vid_target="A6E8A65D-4D28-8137-2B86-BEE255DCF307">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5D851A77-A634-59FA-B78C-32D59CF7A39C" otype="Relation" vid_source="A6E8A65D-4D28-8137-2B86-BEE255DCF307" vid_target="978DA43D-7E7D-B390-18D3-B7B8FD3FD5DA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="219" y="138"/>
+<point x="345" y="195"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

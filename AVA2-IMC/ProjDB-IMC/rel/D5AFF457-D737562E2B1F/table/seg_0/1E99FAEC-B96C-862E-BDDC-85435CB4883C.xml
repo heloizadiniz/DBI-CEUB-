@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E99FAEC-B96C-862E-BDDC-85435CB4883C" name="logdeSeguranca">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-29 00:35:01 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="5B25FA6A-5412-D9C9-3A7C-F514A9A86A93">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-29 00:37:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="E89FAE9F-F5D9-6FEF-0126-D80C5DDF6350">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-29 00:37:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operacao" id="7559FE33-31E9-5FD3-37C1-D87869044A35">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-04-29 00:37:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
