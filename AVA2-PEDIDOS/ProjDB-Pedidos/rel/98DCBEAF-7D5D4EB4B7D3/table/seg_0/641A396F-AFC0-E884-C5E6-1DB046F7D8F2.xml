@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="641A396F-AFC0-E884-C5E6-1DB046F7D8F2" name="ItemPedido">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>1A5791D2-710B-2C34-7CF7-82E69EDB37BD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoProduto" id="6A4841B3-B15A-6C60-2F52-555BBFB0DC51">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>DB3568A4-5ECB-7352-EA2F-E7C4C742BBB3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoproduto" id="7B35E241-A5A4-AAFF-67BB-F00E79C5A43C">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>654734B2-2EFF-63D4-370D-D282A514412C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="222DDD94-1C85-E703-8ADE-728AC0FECF27">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>65BE5227-8031-A922-9439-CFC722C6771D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="4F4BE362-7398-17EB-DFE6-98D42971AF56">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>C20BE1F9-AC69-A69A-B7D8-E02CB33F2356</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacaoPedido" id="4C568337-7E5E-D469-6C81-B014FEBD1FE6">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>A4D826BE-CC6E-47BB-1F63-43AAEA8E0025</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D7D1E9-4CEF-6FA3-BB2E-C9A2B2A25D40" referredColumn="D6F553AF-CD51-2465-D06C-0330F67CF51A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F237C0E8-AC82-08B6-65A8-807BA3962C57" name="ItemPedido_PK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>8C1A796A-7780-C51A-45F7-009A5D47615B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A4841B3-B15A-6C60-2F52-555BBFB0DC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88262722-67B8-1C66-A266-74AA2734F001" name="ItemPedido_Pedido_FK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:27:35 UTC</createdTime>
+<generatorID>E93E56CC-DA9E-8067-7DFE-D4F7FEF3DB4A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C568337-7E5E-D469-6C81-B014FEBD1FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95CBDAA0-C373-A642-54B1-7ADCFA9D272A" name="Pedido ">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-05 23:19:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificacaoPedido" id="C465524A-BC4D-D046-E6AE-69B2D9A2B1B0">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-05 23:20:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="147A8418-A553-7F49-0259-B52ACEEA9646">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-05 23:24:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="B4784596-EC53-D26D-970B-2EE8CB18DA9A">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-05 23:39:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula " id="9DD06E15-4E68-AFE1-4DAF-E47BA8215B59">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:01:04 UTC</createdTime>
+<generatorID>EFC9D05E-8B9F-5FE6-B2DF-43D0B5E40933</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<referedAttribute>0150E288-5498-7801-E9FB-EE2FEF22EE20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="13677892-6F4E-7980-9716-6AB341EB4DB4">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-06 00:12:09 UTC</createdTime>
+<generatorID>F4864436-605B-5A7F-3EB7-5CD5F448D030</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<referedAttribute>907EFA9D-7268-2394-4EFC-40787ADCF018</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53017ED0-1143-A0B6-33C8-BE2FE5153666" name="Pedido PK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-05 23:24:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="98DCBEAF-D0C6-9BC5-34B0-7D5D4EB4B7D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C465524A-BC4D-D046-E6AE-69B2D9A2B1B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
