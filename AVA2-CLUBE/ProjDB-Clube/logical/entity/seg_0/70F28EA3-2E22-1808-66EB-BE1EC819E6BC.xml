@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70F28EA3-2E22-1808-66EB-BE1EC819E6BC" name="Titular ">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-19 23:41:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf_2" id="17E7C557-48E4-F362-407D-C1CA1B79BB68">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-19 23:42:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E85A11CA-E4CE-7B70-882D-DC7E793C958C">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-19 23:42:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimento" id="770E64DF-1F24-7F23-10A4-B61D60EAECBA">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-19 23:43:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="D7851B36-B946-3CEA-D063-E906FA81DB76">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-20 00:17:40 UTC</createdTime>
+<generatorID>E967E5F9-1458-788F-4537-A21ECEBEDFEF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<referedAttribute>81D09EB6-BD47-E178-8001-A8517CC2517F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="EEDAFD55-C77C-E426-92FA-BC8072649D17">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-20 00:22:52 UTC</createdTime>
+<generatorID>DDE5724F-57FF-D5BF-D475-D03D9D447844</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<referedAttribute>86CFAA46-4BEB-105F-7338-A064CE838065</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="899009F3-20C0-AE96-F3DA-94FDBC72980F" name="Titular PK">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-19 23:42:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17E7C557-48E4-F362-407D-C1CA1B79BB68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

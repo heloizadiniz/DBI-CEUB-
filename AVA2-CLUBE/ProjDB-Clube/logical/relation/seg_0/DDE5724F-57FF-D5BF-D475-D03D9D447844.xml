@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="titularEndereço" directorySegmentName="seg_0" id="DDE5724F-57FF-D5BF-D475-D03D9D447844">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-20 00:22:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<sourcePk>899009F3-20C0-AE96-F3DA-94FDBC72980F</sourcePk>
+<targetPk>D59DDE72-AD2B-9DB7-0CC6-D25C8F1C4A1E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70F28EA3-2E22-1808-66EB-BE1EC819E6BC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5B1923F8-5B3D-6479-41AD-AC4DCAAC68DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

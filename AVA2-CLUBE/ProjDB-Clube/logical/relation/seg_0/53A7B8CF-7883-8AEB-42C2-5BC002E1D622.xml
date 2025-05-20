@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dependenteTelefone" directorySegmentName="seg_0" id="53A7B8CF-7883-8AEB-42C2-5BC002E1D622">
+<createdBy>heloiza.dfigueredo</createdBy>
+<createdTime>2025-05-20 00:21:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E2215A0C-C72E-55A1-254E-995D909BD1DF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E38E7DB-C754-C4BF-3C95-58055BAC308D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04DED45A-3263-E90D-18AE-94A7D0FA0EB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
